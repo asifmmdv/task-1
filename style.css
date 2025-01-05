@@ -70,10 +70,6 @@ h1{
     color: var(--pink);
     font-size: 1.3em;
 }
-.size button:hover{
-    color: white;
-    background-color: var(--pink);
-}
 .size{
     display: flex;
     flex-direction: row;
@@ -100,19 +96,7 @@ font-size: 1.2em;
     width: 60px;
     font-size: 1.5em;
 }
-.cart button:hover{
-    color: var(--pink);
-    background-color: white;
-    border: 1px solid var(--pink);
-    transition: 1s;
-}
-#cart1:hover{
-    font-size: 1.6em;
-    font-weight: bold;
-}
-#cart2:hover{
-    font-size: 2.2em;
-}
+
 @media only screen and (min-width: 768px) {
     section{
         display: flex;
@@ -141,5 +125,22 @@ font-size: 1.2em;
     }
     #about{
         margin-top: -10px;
+    }
+    .size button:hover{
+        color: white;
+        background-color: var(--pink);
+    }
+    .cart button:hover{
+        color: var(--pink);
+        background-color: white;
+        border: 1px solid var(--pink);
+        transition: 1s;
+    }
+    #cart1:hover{
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    #cart2:hover{
+        font-size: 2.2em;
     }
 }
